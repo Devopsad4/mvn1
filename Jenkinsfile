@@ -7,7 +7,7 @@ pipeline
         {
             steps
             {
-                git 'https://github.com/Devopsad4/mvn1.git'
+                git branch: 'main', url: 'https://github.com/Devopsad4/mvn1.git'
             }
         }
       
