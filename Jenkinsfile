@@ -10,15 +10,7 @@ pipeline
                 git 'https://github.com/Devopsad4/mvn1.git'
             }
         }
-        stage('ContinuousBuild')
-        {
-            steps
-            {
-                sh 'mvn package'
-            }
-        }
       
-       
     }
     
     
