@@ -22,7 +22,7 @@ pipeline
         {
             steps
             {
-               sh 'scp /home/ubuntu/.jenkins/workspace/Declartive/webapp/target/webapp.war ubuntu@172.31.36.15:/var/lib/tomcat8/webapps/prodwebapp.war'
+               sh 'scp /home/ubuntu/.jenkins/workspace/Declartive/webapp/target/webapp.war ubuntu@172.31.36.15:/var/lib/tomcat9/webapps/prodwebapp.war'
             }
         }
 
